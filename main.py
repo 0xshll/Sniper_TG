@@ -84,7 +84,7 @@ async def run_sniper(user_id, data):
     await client.run_until_disconnected()
 
 # --- Main ---
-if _name_ == "_main_":
+if __name__ == "__main__":
     app = Application.builder().token("7637036559:AAFwNZbIs81UfSmIO9kPMhquECrK96cXxdU").build()
 
     app.add_handler(CommandHandler("start", start))
