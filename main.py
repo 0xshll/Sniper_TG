@@ -83,7 +83,7 @@ async def run_sniper(user_id, data):
 
 # --- Main ---
 if _name_ == "_main_":
-    app = Application.builder().token("7788084298:AAENvKOA2P_5BFE9_QmenlNTtY5Zj2idqP4").build()
+    app = Application.builder().token("7637036559:AAFwNZbIs81UfSmIO9kPMhquECrK96cXxdU").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler, pattern="^(set_api_id|set_api_hash|set_sniper_bot|set_channels)$"))
